@@ -1,0 +1,1 @@
+cat ugly.json | python -mjson.tool > pretty.json
