@@ -23,7 +23,8 @@ CREATE TABLE products(\
    uri TEXT,\
    oldprice numeric,\
    price numeric,\
-   status integer\
+   status integer,\
+   value_count integer\
 );\
 CREATE TABLE cate_product(\
    id SERIAL PRIMARY KEY,\
