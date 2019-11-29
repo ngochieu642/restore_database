@@ -6,6 +6,7 @@ createTableStr = "CREATE TABLE users(\
    username VARCHAR (50) UNIQUE,\
    password VARCHAR (50),\
    mac_address VARCHAR(50),\
+   history VARCHAR[],\
    last_activity TIMESTAMP\
 );\
 CREATE TABLE category(\
