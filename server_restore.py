@@ -7,7 +7,9 @@ createTableStr = "CREATE TABLE users(\
    password VARCHAR (50),\
    mac_address VARCHAR(50),\
    history VARCHAR[],\
-   last_activity TIMESTAMP\
+   interest VARCHAR[],\
+   last_activity TIMESTAMP,\
+   value_count integer\
 );\
 CREATE TABLE category(\
    cate3_id_new VARCHAR UNIQUE PRIMARY KEY,\
